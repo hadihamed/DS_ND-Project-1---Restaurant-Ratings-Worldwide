@@ -7,14 +7,15 @@ the place. I am particularly interested in what makes certain restaurants succes
 amount of that success could be easily predicted from an outside perspective (i.e. just given the basic variables, such as
 country, cuisine type, and pricing).
 
+## Dataset:
 The dataset comes from Kaggle, and was uploaded by Shruti Mehta. It can be accessed here:
 https://www.kaggle.com/shrutimehta/zomato-restaurants-data
 
-Project Files:
+## Project Files:
 Zomato_project.ipynb - Jupyter Notebook of analysis
 zomato.csv - raw data downloaded from kaggle
 
-Libraries:
+## Libraries:
 matplotlib - Used for graphing and displaying graphs within the notebook
 scikit-learn - Used for data processing and machine learning models
 numpy - Array management and data processing
@@ -22,7 +23,17 @@ pandas - Data organization and processing
 statsmodels - Tool used to run linear regressions with p-value reporting
 seaborn - data visualization and graphing tool
 
-Summary:
+
+## Project Motivation
+I wanted to explore this dataset and answer the following questions:
+1. How do prices differ across countries?
+2. What effect does price have on ratings? With other variables accounted for, do people feel more compelled to rate a restaurant highly if they've paid more for the experience?
+3. Do different countries have different standards for rating?
+4. Do different kinds of cuisines have advantages when it comes to ratings? What cuisine is at a disadvantage?
+5. How well could we predict ratings given the variables in the dataset?
+
+
+## Conclusion Summary:
 Overall there was a very normal distribution of restaurant ratings, averaging near 3.5 out of 5. Prices, country,
 and cuisine type were all significant variables in predicting restaurant ratings. However, the variables in the dataset
 do not seem to be sufficient in creating a highly accurate predictions. Intuitively, there is much more to a restaurant
